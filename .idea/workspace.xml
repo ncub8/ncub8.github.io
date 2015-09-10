@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29da325a-8390-4a33-b4b4-bf140d36607a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kids-eat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kids-free-eats-maine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kids-free-eats-maine.html" afterPath="$PROJECT_DIR$/kids-free-eats-maine.html" />
     </list>
     <ignored path="ncub8.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="kids-free-eats-maine.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kids-free-eats-maine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6103896" vertical-offset="706" max-vertical-offset="2250">
-              <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.05380334" vertical-offset="1366" max-vertical-offset="2775">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -370,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kids-free-eats-maine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6103896" vertical-offset="706" max-vertical-offset="2250">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.05380334" vertical-offset="1366" max-vertical-offset="2775">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
           <folding />
         </state>
       </provider>
