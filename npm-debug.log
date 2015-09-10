@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-keystone' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'generator-keystone', null ]
+5 verbose cache add name=undefined spec="generator-keystone" args=["generator-keystone",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-keystone',
+6 verbose parsed url   path: 'generator-keystone',
+6 verbose parsed url   href: 'generator-keystone' }
+7 silly lockFile f9d2ba60-generator-keystone generator-keystone
+8 verbose lock generator-keystone /Users/john/.npm/f9d2ba60-generator-keystone.lock
+9 silly lockFile f9d2ba60-generator-keystone generator-keystone
+10 silly lockFile f9d2ba60-generator-keystone generator-keystone
+11 verbose addNamed [ 'generator-keystone', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 16ea77ae-generator-keystone generator-keystone@
+14 verbose lock generator-keystone@ /Users/john/.npm/16ea77ae-generator-keystone.lock
+15 silly addNameRange { name: 'generator-keystone', range: '*', hasData: false }
+16 verbose request where is /generator-keystone
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 49c62db52ddcdb14
+19 verbose url raw /generator-keystone
+20 verbose url resolving [ 'https://registry.npmjs.org/', './generator-keystone' ]
+21 verbose url resolved https://registry.npmjs.org/generator-keystone
+22 verbose request where is https://registry.npmjs.org/generator-keystone
+23 info trying registry request attempt 1 at 15:38:42
+24 http GET https://registry.npmjs.org/generator-keystone
+25 http 200 https://registry.npmjs.org/generator-keystone
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"C6TUK5NQWN901IW2GMWRZITSP"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '46526',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Thu, 04 Jun 2015 19:38:43 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-jfk1032-JFK',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1433446723.659160,VS0,VE49',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'generator-keystone', range: '*', hasData: true }
+28 silly addNameRange versions [ 'generator-keystone',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.1.4',
+28 silly addNameRange     '0.1.5',
+28 silly addNameRange     '0.1.6',
+28 silly addNameRange     '0.1.7',
+28 silly addNameRange     '0.1.8',
+28 silly addNameRange     '0.1.10',
+28 silly addNameRange     '0.1.11',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.2.5',
+28 silly addNameRange     '0.2.6',
+28 silly addNameRange     '0.2.7',
+28 silly addNameRange     '0.2.8',
+28 silly addNameRange     '0.2.9',
+28 silly addNameRange     '0.2.10',
+28 silly addNameRange     '0.2.11',
+28 silly addNameRange     '0.2.12',
+28 silly addNameRange     '0.2.13',
+28 silly addNameRange     '0.2.14',
+28 silly addNameRange     '0.2.15',
+28 silly addNameRange     '0.2.16',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4' ] ]
+29 verbose addNamed [ 'generator-keystone', '0.3.4' ]
+30 verbose addNamed [ '0.3.4', '0.3.4' ]
+31 silly lockFile 377bd2ee-generator-keystone-0-3-4 generator-keystone@0.3.4
+32 verbose lock generator-keystone@0.3.4 /Users/john/.npm/377bd2ee-generator-keystone-0-3-4.lock
+33 silly lockFile f2493b6d-one-generator-keystone-0-3-4-tgz https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+34 verbose lock https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz /Users/john/.npm/f2493b6d-one-generator-keystone-0-3-4-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz',
+35 verbose addRemoteTarball   'fe055c4e92901867afe52d71a05b55a756450959' ]
+36 info retry fetch attempt 1 at 15:38:43
+37 verbose fetch to= /var/folders/sm/dzp3psg97_358q3mpw4k7t3w0000gn/T/npm-1036-uyDO3GQ7/registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+38 http GET https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+39 http 200 https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+40 silly lockFile f2493b6d-one-generator-keystone-0-3-4-tgz https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+41 silly lockFile f2493b6d-one-generator-keystone-0-3-4-tgz https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz
+42 silly lockFile 377bd2ee-generator-keystone-0-3-4 generator-keystone@0.3.4
+43 silly lockFile 377bd2ee-generator-keystone-0-3-4 generator-keystone@0.3.4
+44 silly lockFile 16ea77ae-generator-keystone generator-keystone@
+45 silly lockFile 16ea77ae-generator-keystone generator-keystone@
+46 silly resolved [ { name: 'generator-keystone',
+46 silly resolved     version: '0.3.4',
+46 silly resolved     description: 'A KeystoneJS Project Generator for Yeoman',
+46 silly resolved     keywords:
+46 silly resolved      [ 'yeoman-generator',
+46 silly resolved        'keystonejs',
+46 silly resolved        'keystone',
+46 silly resolved        'express',
+46 silly resolved        'cms',
+46 silly resolved        'mongoose',
+46 silly resolved        'mongodb',
+46 silly resolved        'mongo',
+46 silly resolved        'website',
+46 silly resolved        'site',
+46 silly resolved        'blog' ],
+46 silly resolved     homepage: 'https://github.com/keystonejs/generator-keystone',
+46 silly resolved     bugs: { url: 'https://github.com/keystonejs/generator-keystone/issues' },
+46 silly resolved     author: { name: 'Jed Watson', url: 'https://github.com/JedWatson' },
+46 silly resolved     main: 'app/index.js',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/keystonejs/generator-keystone.git' },
+46 silly resolved     scripts: { test: 'mocha' },
+46 silly resolved     dependencies:
+46 silly resolved      { colors: '~1.0.3',
+46 silly resolved        'keystone-utils': '~0.1.13',
+46 silly resolved        lodash: '~3.7.0',
+46 silly resolved        'yeoman-generator': '~0.17.7' },
+46 silly resolved     devDependencies: { mocha: '~2.2.4' },
+46 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+46 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     gitHead: 'd4ed2820de7ce327e48bc142a7118d9a8b223e7e',
+46 silly resolved     _id: 'generator-keystone@0.3.4',
+46 silly resolved     _shasum: 'fe055c4e92901867afe52d71a05b55a756450959',
+46 silly resolved     _from: 'generator-keystone@',
+46 silly resolved     _npmVersion: '2.7.5',
+46 silly resolved     _nodeVersion: '0.12.2',
+46 silly resolved     _npmUser: { name: 'jedwatson', email: 'jed.watson@me.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'fe055c4e92901867afe52d71a05b55a756450959',
+46 silly resolved        tarball: 'http://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/generator-keystone/-/generator-keystone-0.3.4.tgz' } ]
+47 info install generator-keystone@0.3.4 into /usr/local/lib
+48 info installOne generator-keystone@0.3.4
+49 verbose lib/node_modules/generator-keystone unbuild
+50 verbose tar unpack /Users/john/.npm/generator-keystone/0.3.4/package.tgz
+51 silly lockFile 90d00c80--node-modules-generator-keystone tar:///usr/local/lib/node_modules/generator-keystone
+52 verbose lock tar:///usr/local/lib/node_modules/generator-keystone /Users/john/.npm/90d00c80--node-modules-generator-keystone.lock
+53 silly lockFile b597e18d-rator-keystone-0-3-4-package-tgz tar:///Users/john/.npm/generator-keystone/0.3.4/package.tgz
+54 verbose lock tar:///Users/john/.npm/generator-keystone/0.3.4/package.tgz /Users/john/.npm/b597e18d-rator-keystone-0-3-4-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-keystone'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-keystone']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/generator-keystone',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/generator-keystone',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.3.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "generator-keystone"
+60 error cwd /Users/john/ncub8.github.io
+61 error node -v v0.10.30
+62 error npm -v 1.4.21
+63 error path /usr/local/lib/node_modules/generator-keystone
+64 error fstream_path /usr/local/lib/node_modules/generator-keystone
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-keystone'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
