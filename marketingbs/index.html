@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Marketing Bullshit Generator</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+
+        <div class="container d-flex justify-content-between">
+            
+      
+          <main role="main">
+      
+            <section class="jumbotron text-center">
+              <div class="container">
+                <h1 class="jumbotron-heading"><span class="bs"></span></h1>
+                <p>
+                  <a href="#" class="btn btn-primary my-2 clicky">Generate New BS</a>
+                 </p>
+              </div>
+            </section>
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="bsphrases.js"></script>
+    <script>
+        /**var phrases = {
+            pl1: ["Maximum", "Exploding with", "Customize your", "A new paradigm in", "The leader in", "All natural"],
+            pl2: ["quality", "power", "wholesome", "gluten-free", "organic"],
+            pl3: ["beverage", "brand-name", "fashion", "wholesale"],
+            pl4: ["customization.", "goodness.", "flavor.", "maximization.", "value"]
+        } **/
+        function randomPhrase(){
+            let phrase1 = phrases.pl1[Math.floor(Math.random() * phrases.pl1.length)];
+
+            let phrase2 = phrases.pl2[Math.floor(Math.random() * phrases.pl2.length)];
+            let phrase3 = phrases.pl3[Math.floor(Math.random() * phrases.pl3.length)];
+            let phrase4 = phrases.pl4[Math.floor(Math.random() * phrases.pl4.length)];
+            return phrase1 + " " + phrase2 + " " + phrase3 + " " + phrase4;
+        }
+        $(function() {
+            $(".bs").text(randomPhrase());
+            $(".clicky").click(function(){
+                $(".bs").text(randomPhrase());
+            });
+        });
+    </script>
+  </body>
+</html>
